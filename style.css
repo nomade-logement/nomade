@@ -1,0 +1,145 @@
+.banner{
+    text-align: center;
+    color: white;
+    padding: 150px 0px;
+    background-image: linear-gradient(-225deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.4) 50%), url("images/paris_view.jpg");
+    background-size: cover;
+    background-position: bottom;
+  }
+  .banner h1 {
+    font-size: 50px;
+  }
+  .banner h2 {
+    opacity: 0.8;
+    /* font-size: 30px; */
+    font-weight: lighter;
+    margin-bottom: 40px;
+  }
+
+a.try-button {
+  display:inline-block;
+  padding:0.35em 1.2em;
+  border:0.1em solid #FFFFFF;
+  margin:0 0.3em 0.3em 0;
+  border-radius:0.12em;
+  box-sizing: border-box;
+  text-decoration:none;
+  font-family:'Roboto',sans-serif;
+  font-weight:300;
+  color:#FFFFFF;
+  text-align:center;
+  transition: all 0.2s;
+}
+a.try-button:hover{
+  color:#000000;
+  background-color:#FFFFFF;
+  text-decoration: none;
+}
+
+.description-card {
+    background-color: white;
+    border-radius: 4px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(50,50,93,.11);
+    padding: 16px;
+    margin: 8px 0px;
+    padding-top: 150px;
+  }
+  .description-card h1 {
+    color: white;
+    font-weight: bold;
+    font-size: 80px;
+  }
+  .description-card h2 {
+    color: white;
+    font-weight: bold;
+  }
+  .description-card p {
+    color: white;
+    font-weight: bold;
+  }
+  /* .description-card:hover {
+    background-color: rgb(248, 225, 225);
+    border-radius: 4px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(50,50,93,.11);
+    padding: 16px;
+    margin: 16px 0px;
+  } */
+  .description-card img {
+    margin-bottom: 20px;
+  }
+
+.card_bottom {
+  background-color: #634306;
+  border-radius: 1em;
+  padding: 20px 5px 10px 5px;
+}
+
+.interieur_appart {
+  background-image: url("images/interieur_appart.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.petit_salon {
+  background-image: url("images/petit_salon.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.personnes_discutant {
+  background-image: url("images/personnes_discutant_interieur.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.coliving_banner {
+  background-image: url("images/coliving-banner.jpg");
+  background-size: cover;
+  background-position: bottom;
+}
+.coliving_teaser {
+  background-image: url("images/jll-european-coliving-index-teaser.jpg");
+  background-size: cover;
+  background-position: bottom;
+}
+.home_office {
+  background-image: url("images/home-office-gb940c9477_1920.jpg");
+  background-size: cover;
+  background-position: bottom;
+}
+.coloc_petit_groupe {
+  background-image: url("images/colocation-assurance.jpg");
+  background-size: cover;
+  background-position: bottom;
+}
+.nine_coliving {
+  background-image: url("images/nine-coliving-coworking-1024x749.jpg");
+  background-size: cover;
+  background-position: bottom;
+}
+
+.section_title {
+  margin-top: 40px;
+}
+
+.footer {
+  background-color: black;
+  padding: 24px;
+  color: white;
+  text-align: center;
+  background-image: linear-gradient(-225deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.4) 50%), url("images/paris_view.jpg");
+  background-size: cover;
+  background-position: bottom;
+}
+  .footer a {
+  color: white;
+  font-size: 32px;
+  }
+
+.contact-list {
+  list-style: none;
+  padding-left: 0px;
+}
+  .contact-list li {
+    display: inline;
+    padding: 0px 8px;
+  }
